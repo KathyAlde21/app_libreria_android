@@ -11,13 +11,13 @@
 
 <p>Dividido en dos partes, una teorica y una práctica</p>
 
-1. Establecer el Contexto del Proyecto:[./INFORME.md]
+1. [Establecer el Contexto del Proyecto:](./INFORME.md)
 - <b>Pregunta teórica:</b> Explica las principales tecnologías y herramientas que se utilizan en el desarrollo de aplicaciones móviles Android. Menciona al menos tres tecnologías o herramientas clave y describe brevemente su función dentro del proceso de desarrollo.
 
-2. Entorno de Desarrollo Android:[./INFORME.md]
+2. [Entorno de Desarrollo Android:](./INFORME.md)
 - <b>Pregunta práctica:</b> Describe cómo configurar un nuevo proyecto en Android Studio para una aplicación nativa, mencionando al menos tres configuraciones iniciales esenciales (como el tipo de proyecto, versión mínima de Android, etc.).
 
-3. Elementos de Configuración del Proyecto:[./INFORME.md]
+3. [Elementos de Configuración del Proyecto:](./INFORME.md)
 - <b>Pregunta práctica:</b> Explica cómo manejar los assets dentro de un proyecto Android, como imágenes, fuentes y otros recursos, y por qué es importante optimizar su uso en la aplicación.
 
 4. Implementación de Elementos Básicos de Interfaz de Usuario:
@@ -33,7 +33,7 @@
     - Implementa una barra de navegación que permita a los usuarios ir de la pantalla principal (lista de libros) a una pantalla de detalles del libro seleccionado.
     - Utiliza un <b>Intent</b> para el cambio de actividades, pasando los datos del libro seleccionado (por ejemplo, título y descripción) a la nueva actividad.
 
-6. Gestión del Código Fuente con GitHub:[./INFORME.md]
+6. [Gestión del Código Fuente con GitHub:](./INFORME.md)
 - <b>Tarea práctica:</b> Crea un repositorio en GitHub para el proyecto y sube tu código fuente. Asegúrate de organizar el proyecto de forma clara y documentada, permitiendo el trabajo concurrente y la fácil colaboración con otros desarrolladores. Describe brevemente cómo gestionaste el código fuente, las ramas utilizadas y cualquier práctica que hayas seguido para mantener el repositorio seguro.
 
 
