@@ -4,35 +4,29 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class BookDetailActivity extends AppCompatActivity {
-    public static final String EXTRA_BOOK_ID = "extra_book_id";
-    public static final String EXTRA_TITLE = "extra_title";
-    public static final String EXTRA_DESCRIPTION = "extra_description";
-    public static final String EXTRA_COVER_RES_ID = "extra_cover_res_id";
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_detail);
 
-        ImageView ivDetailCover = findViewById(R.id.ivDetailCover);
-        TextView tvDetailTitle = findViewById(R.id.tvDetailTitle);
-        TextView tvDetailDescription = findViewById(R.id.tvDetailDescription);
-        findViewById(R.id.btnAddToCartDetail).setOnClickListener(v -> {
-            // Aquí podrías integrar lógica real del carrito más adelante
-            Toast.makeText(this, "Agregado al carrito desde detalle", Toast.LENGTH_SHORT).show();
-        });
+        // Referencias a los elementos de la interfaz
+        ImageView img = findViewById(R.id.imgCoverDetail);
+        TextView title = findViewById(R.id.txtTitleDetail);
+        TextView desc = findViewById(R.id.txtDescDetail);
 
-        // Recibir datos del Intent
-        String title = getIntent().getStringExtra(EXTRA_TITLE);
-        String description = getIntent().getStringExtra(EXTRA_DESCRIPTION);
-        int coverResId = getIntent().getIntExtra(EXTRA_COVER_RES_ID, R.drawable.ic_launcher_background);
+        // Obtener datos de la actividad anterior
+        String t = getIntent().getStringExtra("title");
+        String d = getIntent().getStringExtra("desc");
+        int cover = getIntent().getIntExtra("cover", 0);
 
         // Mostrar datos
-        if (title != null) tvDetailTitle.setText(title);
-        if (description != null) tvDetailDescription.setText(description);
-        ivDetailCover.setImageResource(coverResId);
+        if (t != null) title.setText(t);
+        if (d != null) desc.setText(d);
+        if (cover != 0) img.setImageResource(cover);
     }
 }

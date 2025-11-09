@@ -1,5 +1,29 @@
 <resources>
-    <string name="app_name">Librería App</string>
+
     <string name="book_cover">Portada del libro</string>
-    <string name="add_to_cart">Agregar</string>
+
+    <!-- activity book detail -->
+    <!-- <string name="book_title">Título"-->
+    <string name="cart_empty">El carrito está vacío</string>
+    <string name="cart_qty">Cantidad</string>
+    <string name="remove_one">Eliminar uno</string>
+
+    <!--activity cart -->
+    <string name="txt_total_items">Total de items: 0</string>
+    <string name="clear_cart">Vaciar carro</string>
+
+    <!-- activity main -->
+    <string name="header_title">📚 Librería Online</string>
+
+    <!-- item book -->
+    <string name="app_name">Librería App</string>
+    <string name="book_title">Título</string>
+    <string name="book_desc">Breve descripción...</string>
+    <string name="add_to_cart">Agregar al carro</string>
+
+    <!--  item cart  -->
+    <!-- <string name="book_cover">Portada del libro</string>-->
+    <!-- <string name="book_title">Título</string>-->
+    <string name="tv_cart_qty">Cantidad: 1</string>
+    <string name="btn_remove">-1</string>
 </resources>

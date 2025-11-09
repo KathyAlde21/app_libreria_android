@@ -1,19 +1,19 @@
 package com.example.libreriaapp;
 
 public class Book {
-    private int id;
-    private String title;
-    private String description;
-    private int coverResId;
+    private final String id;
+    private final String title;
+    private final String description;
+    private final int coverRes;
 
-    public Book(int id, String title, String description, int coverResId) {
+    public Book(String id, String title, String description, int coverRes) {
         this.id = id;
         this.title = title;
         this.description = description;
-        this.coverResId = coverResId;
+        this.coverRes = coverRes;
     }
  //getters y setters
-    public int getId() {
+    public String getId() {
         return id;
     }
     public String getTitle() {
@@ -22,11 +22,12 @@ public class Book {
     public String getDescription() {
         return description;
     }
-    public int getCoverResId() {
-        return coverResId;
+    public int getCoverRes() {
+        return coverRes;
     }
-    public void setId(int id) {
-        this.id = id;
+    /*
+    public void setCoverRes(int coverRes) {
+        this.coverRes = coverRes;
     }
     public void setTitle(String title) {
         this.title = title;
@@ -34,7 +35,8 @@ public class Book {
     public void setDescription(String description) {
         this.description = description;
     }
-    public void setCoverResId(int coverResId) {
-        this.coverResId = coverResId;
+    public void setId(int id) {
+        this.id = id;
     }
+    */
 }
