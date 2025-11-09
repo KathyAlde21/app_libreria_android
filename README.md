@@ -9,7 +9,7 @@
 
 **<h3>:orange_book: Requerimiento:</h3>**
 
-<p>Dividido en dos partes, una teorica y una práctica</p>
+<p>Dividido en dos partes, una teorica en INFORME.md y una práctica</p>
 
 1. [Establecer el Contexto del Proyecto:](./INFORME.md)
 - <b>Pregunta teórica:</b> Explica las principales tecnologías y herramientas que se utilizan en el desarrollo de aplicaciones móviles Android. Menciona al menos tres tecnologías o herramientas clave y describe brevemente su función dentro del proceso de desarrollo.
