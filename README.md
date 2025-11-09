@@ -64,7 +64,7 @@
 │   │   │    ├── 🖼️ book1.jpg
 │   │   │    ├── 🖼️ book2.jpg
 │   │   │    ├── 🖼️ book3.jpg
-│   │   │    ├── 🖼️ libreria_emulador.jpg
+│   │   │    ├── 🖼️ libreria_emulador.png
 │   │   │    ├── 🟧 ic_launcher_background.xml
 │   │   │    └── 🟧 ic_launcher_foreground.xml
 │   ├── 📁 layout
@@ -105,4 +105,4 @@
 
 **<h3>:book: Capturas de pantalla de la interfaz de usuario final:</h3>**
 
-<img src="./app/src/main/res/drawable/libreria_emulador.jpg" alt="Vista Celular" style="width: 40%;">
+<img src="./app/src/main/res/drawable/libreria_emulador.png" alt="Vista Celular" style="width: 40%;">
