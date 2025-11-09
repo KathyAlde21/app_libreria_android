@@ -2,14 +2,14 @@
 
 **<h3>:blue_book: Contexto de la Actividad:</h3>**
 
-<p>magina que trabajas como desarrollador de aplicaciones móviles en una empresa de tecnología que está creando una app para una librería online.</p>
+<p>Imagina que trabajas como desarrollador de aplicaciones móviles en una empresa de tecnología que está creando una app para una librería online.</p>
 <p>La app debe permitir a los usuarios explorar libros, agregar libros a su carrito de compras, ver detalles de cada libro y navegar entre distintas categorías.</p>
 <p>La empresa te ha asignado la tarea de desarrollar una primera versión de la interfaz de usuario de la app, que debe ser intuitiva, fácil de usar y visualmente atractiva</p>
 <p>A través de esta evaluación, se pondrán en práctica tus conocimientos sobre las herramientas, elementos de la interfaz y buenas prácticas de desarrollo en Android.</p>
 
 **<h3>:orange_book: Requerimiento:</h3>**
 
-<p>Dividido en dos partes, una teorica en INFORME.md y una práctica</p>
+Dividido en dos partes, una teorica en [INFORME.md](./INFORME.md) y una práctica
 
 1. [Establecer el Contexto del Proyecto:](./INFORME.md)
 - <b>Pregunta teórica:</b> Explica las principales tecnologías y herramientas que se utilizan en el desarrollo de aplicaciones móviles Android. Menciona al menos tres tecnologías o herramientas clave y describe brevemente su función dentro del proceso de desarrollo.
